@@ -27,7 +27,7 @@ class LoginForm extends React.Component {
       });
   };
 
-  return = () => {
+  render() {
     return (
       <Form
         name="normal_login"
@@ -56,7 +56,7 @@ class LoginForm extends React.Component {
         </Form.Item>
       </Form>
     );
-  };
+  }
 }
 
 export default LoginForm;
